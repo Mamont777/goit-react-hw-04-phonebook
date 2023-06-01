@@ -42,7 +42,7 @@ export function App() {
       return;
     }
 
-    setContacts(prevContacts => [...prevContacts, ...contacts]);
+    setContacts(prevContacts => [...prevContacts, contact]);
   };
 
   const changeFilter = e => {
